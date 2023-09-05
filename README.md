@@ -38,5 +38,25 @@ If we assume the following as true for the sake of this exercise:
 
 It is quite easy to grasp that the cost of a false positive that results in an extra launch of a $330 million dollar spacecraft pales in comparison to almost $6 trillion. In fact, we would have to have *17,727* false positives to match the cost of a strike that takes out Los Angeles. Obviously, this is all hypothetical, but coming up with costs for something like this is quite difficult. To come up with real figures, a significant amount of time would need to be spent gathering data about natural disaster recovery costs, any/all data about actual impact restorations, the costs of monitoring NEO objects for both resources (satellites, radar, software) as well as man-hours, the costs of a data science team to build, train, deploy, & monitor the model, etc etc.
 
+## License
+
+ The MIT License (MIT)
+ Copyright (c) 2023 Peter Keens
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
 ## Contact Information
 Peter Thomas Keens: [Email](mailto:peter.t.keens@vanderbilt.edu)
