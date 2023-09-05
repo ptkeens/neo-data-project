@@ -24,7 +24,7 @@ This data set contains the following features:
 Fields marked with a \* will not be included in training to prevent either overfitting & leakage, or because the data is irrelevant.
 
 ## Approach
-I plan on following the standard ML data model for processing the data, which would include feature engineering, modeling, and assessment. Our target is the boolean evaluation of whether or not a NEO is hazardous or not. To accomplish this, I will use a test/train split that will select a portion of the data (~70%) for training, a portion for validation (~20%), and a portion for testing (10%). The fields marked with an asterisk above would be excluded from the dataset used for training so as not fall prey to overfitting the model.
+I plan on following the standard ML data model for processing the data, which would include feature engineering, modeling, and assessment. Our target is the boolean evaluation of whether or not a NEO is hazardous or not. To accomplish this, I will use a test/train split that will select a portion of the data (~70%) for training, a portion for validation (~20%), and a portion for testing (~10%). The fields marked with an asterisk above would be excluded from the dataset used for training so as not fall prey to overfitting the model.
 
 ## Financial Incentives
 NASA has a $138 million annual planetary defense budget, with a recent ear-marking of $90 milllion for the NEO Surveyor project, which is a space-based asteroid hunting telescope (which will not launch until 2028). The total cost of that mission has now reached $1.2 billion since it was approved in 2019. Given that we know that an asteroid is capable of being an extinction-level event, this is a small price to pay for increased awareness of what is out there. If you assume a risk of a 1:250,000 chance of an asteroid hitting an earth in a given year, it is a highly unlikely event that this should happen, but one that carries a very high price if we find ourselves in this position. Let's set up a scenario for evaluating the costs and savings afforded by this model:
@@ -37,6 +37,19 @@ If we assume the following as true for the sake of this exercise:
 - The cost of a DART is $330 million dollars
 
 It is quite easy to grasp that the cost of a false positive that results in an extra launch of a $330 million dollar spacecraft pales in comparison to almost $6 trillion. In fact, we would have to have *17,727* false positives to match the cost of a strike that takes out Los Angeles. Obviously, this is all hypothetical, but coming up with costs for something like this is quite difficult. To come up with real figures, a significant amount of time would need to be spent gathering data about natural disaster recovery costs, any/all data about actual impact restorations, the costs of monitoring NEO objects for both resources (satellites, radar, software) as well as man-hours, the costs of a data science team to build, train, deploy, & monitor the model, etc etc.
+
+
+## Expected Outcome
+
+The expected outcome is that the model will be able to predict the boolean condition of if an NEO is considered hazardous.
+
+## Stakeholders
+
+Prof. Peng “Dana” Zhang\
+Email: peng.zhang@vanderbilt.edu
+
+Xueyuan Li\
+Email: xueyuan.li@vanderbilt.edu
 
 ## License
 
@@ -57,6 +70,7 @@ It is quite easy to grasp that the cost of a false positive that results in an e
  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  SOFTWARE.
+
 
 ## Contact Information
 Peter Thomas Keens: [Email](mailto:peter.t.keens@vanderbilt.edu)
