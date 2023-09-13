@@ -6,6 +6,6 @@ est_diameter_max,float,Estimated maximum diameter of the object in kilometers
 relative_velocity,float,Velocity relative to Earth in Kmph
 miss_distance,float,Distance in kilometers by which the object missed Earth
 orbiting_body,string,The planet this asteroid orbits
-sentry_object,boolean,Whether this object is included in an automated collision monitoring system known as Sentry (True, False)
+sentry_object,boolean,Whether this object is included in an automated collision monitoring system known as Sentry (True|False)
 absolute_magnitude,float,Intrinsic luminosity of the object. Larger values imply a dimmer object
-hazardous,boolean,Boolean feature stating whether this asteroid is potentailly harmful or not (True, False)
+hazardous,boolean,Boolean feature stating whether this asteroid is potentailly harmful or not (True|False)
